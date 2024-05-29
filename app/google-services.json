@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "629076736167",
+    "project_id": "projeto-adopet",
+    "storage_bucket": "projeto-adopet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629076736167:android:89fd9880c4b2d8b0494382",
+        "android_client_info": {
+          "package_name": "com.example.projeto_adopet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfK_416L9LYxUPk9L-3r9J1ziBpkHQeEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

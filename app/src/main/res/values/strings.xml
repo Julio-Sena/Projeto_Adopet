@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Projeto Adopet</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="title_cadastro">Cadastre-se</string>
+    <string name="title_conta">Não possui uma conta?</string>
+    <string name="BemVindo">Bem - Vindo</string>
+    <string name="title_lista_pets">Pets Disponíveis para Adoção</string>
+    <string name="pet_image">Imagem do Pet</string>
+    <string name="nome_do_pet">Nome do Pet</string>
+    <string name="idade_do_pet">Idade</string>
+    <string name="raca_do_pet">Raça</string>
+    <string name="cor_do_pet">Cor</string>
+</resources>
