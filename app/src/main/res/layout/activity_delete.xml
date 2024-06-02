@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <!-- Imagem de fundo no topo -->
+    <ImageView
+        android:id="@+id/imageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_adopet_1"
+        android:scaleType="center"
+        android:contentDescription="@string/adopet1"/>
+
+    <!-- Layout de conteúdo centralizado verticalmente -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/textNomeUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_nome_usuario"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textEmailUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_email_usuario"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/textNomeUsuario"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/bt_deslogar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deslogar"
+            android:layout_below="@id/textEmailUsuario"
+            android:layout_marginTop="32dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black" />
+
+        <Button
+            android:id="@+id/bt_excluir_conta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_excluir_conta"
+            android:layout_below="@id/bt_deslogar"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

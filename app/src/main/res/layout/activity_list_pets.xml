@@ -24,7 +24,6 @@
         android:id="@+id/recycler_view_pets"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/background"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,5 +33,15 @@
         app:layout_constraintTop_toBottomOf="@id/title_listapets"
         app:layout_constraintVertical_bias="1.0"
         tools:listitem="@layout/item_pet" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="413dp"
+        android:layout_height="80dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/adopet_pata"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-4dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

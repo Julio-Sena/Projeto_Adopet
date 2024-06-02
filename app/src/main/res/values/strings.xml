@@ -11,4 +11,10 @@
     <string name="idade_do_pet">Idade</string>
     <string name="raca_do_pet">Raça</string>
     <string name="cor_do_pet">Cor</string>
+    <string name="text_nome_usuario">Nome do Usuário</string>
+    <string name="text_email_usuario">E-mail do Usuário</string>
+    <string name="button_deslogar">Deslogar</string>
+    <string name="button_excluir_conta">Excluir Conta</string>
+    <string name="adopet1">adopet</string>
+
 </resources>
