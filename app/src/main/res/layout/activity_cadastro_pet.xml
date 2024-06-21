@@ -28,32 +28,32 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <EditText
-        android:id="@+id/edit_nome_pet"
+        android:id="@+id/edit_nome_animal"
         style="@style/Edit_Text"
         android:hint="Nome do Pet"
         android:inputType="text"
-        android:drawableRight="@drawable/ic_pet_name"
+        android:drawableRight="@drawable/ic_animal_name"
         app:layout_constraintTop_toTopOf="@id/containerComponents"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents" />
 
     <EditText
-        android:id="@+id/edit_raca_pet"
+        android:id="@+id/edit_raca_animal"
         style="@style/Edit_Text"
         android:hint="Raça"
         android:inputType="text"
-        android:drawableRight="@drawable/ic_pet_raca"
-        app:layout_constraintTop_toBottomOf="@id/edit_nome_pet"
+        android:drawableRight="@drawable/ic_animal_raca"
+        app:layout_constraintTop_toBottomOf="@id/edit_nome_animal"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents" />
 
     <EditText
-        android:id="@+id/edit_idade_pet"
+        android:id="@+id/edit_idade_animal"
         style="@style/Edit_Text"
         android:hint="Idade"
         android:inputType="number"
-        android:drawableRight="@drawable/ic_pet_age"
-        app:layout_constraintTop_toBottomOf="@id/edit_raca_pet"
+        android:drawableRight="@drawable/ic_animal_age"
+        app:layout_constraintTop_toBottomOf="@id/edit_raca_animal"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents" />
 
@@ -62,7 +62,7 @@
         style="@style/Button"
         android:text="Escolher Imagem"
         android:layout_marginTop="20dp"
-        app:layout_constraintTop_toBottomOf="@id/edit_idade_pet"
+        app:layout_constraintTop_toBottomOf="@id/edit_idade_animal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

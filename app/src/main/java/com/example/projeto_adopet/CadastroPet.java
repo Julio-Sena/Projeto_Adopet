@@ -145,9 +145,9 @@ public class CadastroPet extends AppCompatActivity {
     }
 
     private void IniciarComponentes() {
-        edit_nome_pet = findViewById(R.id.edit_nome_pet);
-        edit_idade_pet = findViewById(R.id.edit_idade_pet);
-        edit_raca_pet = findViewById(R.id.edit_raca_pet);
+        edit_nome_pet = findViewById(R.id.edit_nome_animal);
+        edit_idade_pet = findViewById(R.id.edit_idade_animal);
+        edit_raca_pet = findViewById(R.id.edit_raca_animal);
         bt_cadastrar_pet = findViewById(R.id.bt_cadastrar_pet);
         button_choose_image = findViewById(R.id.button_choose_image);
         image_preview = findViewById(R.id.image_preview);
