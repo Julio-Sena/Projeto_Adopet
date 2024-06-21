@@ -1,4 +1,5 @@
 <resources>
+    <string name="title_cadastro_pet">Cadastro de Pet</string>
     <string name="app_name">Projeto Adopet</string>
     <string name="entrar">Entrar</string>
     <string name="text_cadastro">Crie uma conta clicando aqui</string>
@@ -16,5 +17,12 @@
     <string name="button_deslogar">Deslogar</string>
     <string name="button_excluir_conta">Excluir Conta</string>
     <string name="adopet1">adopet</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_senha">Senha</string>
+    <string name="Adopet">Adopet</string>
+    <string-array name="tipo_pet_array">
+        <item>Cachorro</item>
+        <item>Gato</item>
+    </string-array>
 
 </resources>

@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.example.projeto_adopet'
-    compileSdkVersion 34
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.projeto_adopet"
@@ -56,4 +56,5 @@ dependencies {
     implementation 'androidx.activity:activity:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.firebase:firebase-database:21.0.0'
+    implementation 'com.google.firebase:firebase-storage:21.0.0'
 }

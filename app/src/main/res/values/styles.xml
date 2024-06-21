@@ -30,6 +30,7 @@
         <item name="android:textStyle">bold</item>
         <item name="textAllCaps">false</item>
         <item name="android:background">@drawable/button</item>
+
     </style>
 
     <style name="TitleText">
@@ -41,7 +42,9 @@
     <style name="ItemBackground">
         <item name="android:background">@drawable/item_background</item>
         <item name="android:padding">16dp</item>
-
     </style>
 
+    <style name="Button1">
+        <item name="android:color">@color/black</item>
+    </style>
 </resources>

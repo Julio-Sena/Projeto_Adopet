@@ -6,7 +6,6 @@
     android:background="@android:color/white">
 
 
-    <!-- Imagem de fundo no topo -->
     <ImageView
         android:id="@+id/imageBackground"
         android:layout_width="match_parent"
@@ -15,7 +14,6 @@
         android:scaleType="center"
         android:contentDescription="@string/adopet1"/>
 
-    <!-- Layout de conteúdo centralizado verticalmente -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
